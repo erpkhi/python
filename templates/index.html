@@ -1,0 +1,6 @@
+{% if msg %}
+<h1>this is Home Page for {{ msg }}!</h1>
+{% endif %} {% include 'menu.html' %} {% include 'login.html' %} not user?? <input type="button" value="Sign Up" onclick="window.location.href='/signup'"> {%if msg %}
+
+<h1>Hello {{ msg }} is login!</h1>
+{% endif %}
